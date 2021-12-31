@@ -95,7 +95,7 @@ require_once "whitakers-words-master/whits_end.php";
         //Google Translate Portion: https://www.sitepoint.com/using-google-translate-api-php/
       
         // Get's Google Latin translation of the input
-        $apiKey = 'AIzaSyCxpCo0NMO66BwvK53nGHWSeSJjXxdP4IQ';
+        $apiKey = 'insert Google API kye';
         $text = $latin_input;
         $url = 'https://www.googleapis.com/language/translate/v2?key=' . $apiKey . '&q=' . rawurlencode($text) . '&source=la&target=en';
         
