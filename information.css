@@ -1,0 +1,17 @@
+body {
+    background-color: cream;
+}
+
+div {
+    position: fixed;
+    bottom: 10;
+    right: 10;
+    width: 97%;
+    height: 95%;
+    /*border: 3px solid #73AD21;*/
+    background: beige;
+    color: black;
+    text-align: left;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+    overflow-y: scroll;
+}
